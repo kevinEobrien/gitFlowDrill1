@@ -1,13 +1,14 @@
-Instructions
+## Instructions
 
 Work with a partner to edit a project and manage your changes with git.
-Steps
 
-    Find a partner. Pick one person to copy the app folder so that it is outside of this repo. Initialize it as its own git repo and link it to a remote on Github.
-    Decide on your git workflow and record it inside the repo before you start. Be sure to commit it before moving on to the tasks.
-    Taking turns, go to this app and generate a task. Do the task and make your changes available to your partner on Github.
-    Once you've completed one task, slack your partner to start theirs. Do this 5 times.
-    When you complete the process with working code, you should both submit the link to the repo.
+## Steps
+
+1. Find a partner. Pick one person to copy the app folder so that it is outside of this repo. Initialize it as its own git repo and link it to a remote on Github.
+2. Decide on your git workflow and record it inside the repo before you start. Be sure to commit it before moving on to the tasks.
+3. Taking turns, go to [this app](https://random-task-generator.firebaseapp.com) and generate a task. Do the task and make your changes available to your partner on Github.
+4. Once you've completed one task, slack your partner to start theirs. Do this 5 times.
+5. When you complete the process with working code, you should both submit the link to the repo.
 
 //-----------------------------------------------------------------------------//
 
@@ -21,4 +22,14 @@ Kevin Task 2: add a css file and link it to one of your html files
 
 Brandon Task 2: You should create an array of objects. Each object should have a name and age.
 
-Kevin Task 3: You should edit an HTML file. Add a recipe that you like using lists. 
+Kevin Task 3: You should edit an HTML file. Add a recipe that you like using lists.
+
+Brandon Task 3: You should remove a file other than index.html.
+
+Kevin Task 4:
+
+Brandon Task 4:
+
+Kevin Task 5:
+
+Brandon Task 5:
