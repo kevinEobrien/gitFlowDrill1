@@ -30,6 +30,6 @@ Kevin Task 4:Slack your partner. You should both edit five CSS properties.
 
 Brandon Task 4: You should create a new HTML file. Link to it from index.html
 
-Kevin Task 5:
+Kevin Task 5: You should edit an HTML file. Add a paragraph about something you like.
 
 Brandon Task 5:
