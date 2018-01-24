@@ -8,8 +8,13 @@ header {
 
 h1 {
   grid-column: 1/span 2;
+  font-size: 3rem;
   margin-left: 1rem;
   color: orange;
+}
+h3{
+  font-family:  "Times New Roman", serif;
+  font-size: 1.5rem;
 }
 
 nav {
@@ -22,7 +27,6 @@ nav a {
   font-size: ;
 }
 
-/* Brandon's Style Edits */
 
 ul {
   display: flex;
@@ -30,7 +34,10 @@ ul {
   width: 25vw;
   align-items: center;
 }
-
+li{
+  font-size: 1rem;
+  font-family: "veranda";
+}
 #eggs {
   color: hsla(52, 100%, 50%, 1);
   background-color: black;
@@ -52,4 +59,3 @@ ul {
   background-color: black;
 }
 
-/* End Brandon's Style Edits */
