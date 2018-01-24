@@ -3,13 +3,18 @@ header {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   align-items: end;
-  border-bottom: .3rem solid darkgrey;
+  border-bottom: 0.3rem solid darkgrey;
 }
 
 h1 {
   grid-column: 1/span 2;
+  font-size: 3rem;
   margin-left: 1rem;
   color: orange;
+}
+h3{
+  font-family:  "Times New Roman", serif;
+  font-size: 1.5rem;
 }
 
 nav {
@@ -19,11 +24,38 @@ nav {
 nav a {
   text-decoration: none;
   color: darkgrey;
-  font-size:
+  font-size: ;
 }
 
-ul{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 4rem;
-  
+
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  align-items: center;
 }
+li{
+  font-size: 1rem;
+  font-family: "veranda";
+}
+#eggs {
+  color: hsla(52, 100%, 50%, 1);
+  background-color: black;
+}
+
+#cheese {
+  color: yellow;
+  background-color: black;
+}
+#salt {
+  color: hsla(338, 100%, 100%, 1);
+  background-color: black;
+}
+#pepper {
+  color: hsla(0, 14%, 11%, 1);
+}
+#butter {
+  color: hsla(49, 100%, 50%, 1);
+  background-color: black;
+}
+
