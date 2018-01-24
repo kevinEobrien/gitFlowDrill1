@@ -26,7 +26,7 @@ Kevin Task 3: You should edit an HTML file. Add a recipe that you like using lis
 
 Brandon Task 3: You should remove a file other than index.html.
 
-Kevin Task 4:
+Kevin Task 4:Slack your partner. You should both edit five CSS properties.
 
 Brandon Task 4:
 
