@@ -20,3 +20,5 @@ Brandon task 1: You should create an array of numbers in a Javascript file, if t
 Kevin Task 2: add a css file and link it to one of your html files
 
 Brandon Task 2: You should create an array of objects. Each object should have a name and age.
+
+Kevin Task 3: You should edit an HTML file. Add a recipe that you like using lists. 
