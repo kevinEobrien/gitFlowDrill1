@@ -1,9 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* -------------------------------- */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: light grey;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  background-image: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.aLtnmP2PR-eoABzl_6w-1QHaFj%26pid%3D15.1&f=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  align-items: center;
+}
+
 header {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
-  align-items: end;
-  border-bottom: 0.3rem solid darkgrey;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgrey;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -12,21 +176,22 @@ h1 {
   margin-left: 1rem;
   color: orange;
 }
-h3{
-  font-family:  "Times New Roman", serif;
+h3 {
+  font-family: 'Times New Roman', serif;
   font-size: 1.5rem;
+  align-items: center;
 }
 
 nav {
   grid-column: 5/ span 2;
+  align-items: center;
 }
 
 nav a {
   text-decoration: none;
   color: darkgrey;
-  font-size: ;
+  align-items: center;
 }
-
 
 ul {
   display: flex;
@@ -34,28 +199,17 @@ ul {
   width: 25vw;
   align-items: center;
 }
-li{
+li {
   font-size: 1rem;
-  font-family: "veranda";
-}
-#eggs {
-  color: hsla(52, 100%, 50%, 1);
-  background-color: black;
+  font-family: 'veranda';
+  line-height: 200%;
 }
 
-#cheese {
-  color: yellow;
-  background-color: black;
+p {
+  color: white;
+  background: hsla(0, 0%, 0%, 0.24);
+  width: 50vw;
+  justify-content: center;
+  font-size: 2rem;
+  line-height: 200%;
 }
-#salt {
-  color: hsla(338, 100%, 100%, 1);
-  background-color: black;
-}
-#pepper {
-  color: hsla(0, 14%, 11%, 1);
-}
-#butter {
-  color: hsla(49, 100%, 50%, 1);
-  background-color: black;
-}
-

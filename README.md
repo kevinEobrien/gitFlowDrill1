@@ -32,4 +32,4 @@ Brandon Task 4: You should create a new HTML file. Link to it from index.html
 
 Kevin Task 5: You should edit an HTML file. Add a paragraph about something you like.
 
-Brandon Task 5:
+Brandon Task 5: You should edit five CSS properties.
